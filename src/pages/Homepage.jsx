@@ -15,7 +15,7 @@ export default function Homepage() {
       <div className="content-section">
         <div className="text-content">
           <h1>Notes Taking App</h1>
-          <p>When your heart speaks, take good notes.”</p>
+          <p>" When your heart speaks, take good notes ”</p>
           <p> - Judith Exner</p>
           <div className="button-section">
             <button className="login-button" onClick={() => { nav("/login") }}>Log In</button>
