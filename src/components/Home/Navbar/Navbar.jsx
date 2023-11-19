@@ -29,7 +29,7 @@ import { LOGOUT } from '../../../redux/users/user_types';
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Box fontWeight={"bold"} cursor="pointer" onClick={()=>{
             nav("/")
-          }}>React Notes App</Box>
+          }}>Notes Taking App</Box>
           <Flex alignItems={'center'}>
             <Stack alignItems = {"center"} direction={'row'} spacing={7}>
               <Button display={auth?"block":"none"} bg={"#01d8fb"} onClick={()=>{
