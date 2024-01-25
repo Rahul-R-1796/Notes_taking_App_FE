@@ -1,0 +1,131 @@
+/* styles.css */
+
+.note-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.card-header {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.title {
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  margin-top: 10px;
+  height: 50%;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.body {
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100%;
+}
+
+.card-footer {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.delete-button,
+.edit-content button,
+.cancel-button {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover,
+.delete-button:hover,
+.edit-content button:hover,
+.cancel-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-mode {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+}
+
+.edit-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.edit-form {
+  margin-top: 10px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #999;
+}
